@@ -21,4 +21,14 @@ user.push(1);
 // Moving to enus
 const enum Size {Small=1, Medium, Large}
 let mySize: Size = Size.Small
-console.log(mySize);
+// console.log(mySize);
+
+/// Moving to functions
+function calculateIncome(income: number, taxYear: number): number {
+    if(taxYear > 50_000)
+        return income * 1.1 
+    return income*1.3
+    
+    
+}
+calculateIncome(57, 100);
