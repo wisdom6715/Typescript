@@ -17,7 +17,8 @@ function calculateIncome(income, taxYear) {
     if (taxYear > 50000)
         return income * 1.1;
     return income * 1.3;
-    console.log(income);
 }
 calculateIncome(57, 100);
+const employees = { id: 1, name: "wisdom" };
+console.log(employees.name);
 //# sourceMappingURL=index.js.map

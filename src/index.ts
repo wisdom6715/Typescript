@@ -29,6 +29,12 @@ function calculateIncome(income: number, taxYear: number): number {
         return income * 1.1 
     return income*1.3
     
-    
 }
 calculateIncome(57, 100);
+
+/// Objects in typescript
+const employees: {
+    id : number
+    name: string
+} = {id : 1, name : "wisdom"}
+console.log(employees.name);
