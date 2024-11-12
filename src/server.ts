@@ -11,3 +11,14 @@ const students: Employees = {
     name: 'ola',
     age: 10
 }
+
+
+//// Moving to Union types
+
+function kgToLbs(weight: number | string) {
+    if(typeof weight === 'number')
+        return weight * 0.453592
+    else return parseInt(weight) * 2
+}
+
+kgToLbs('10')
