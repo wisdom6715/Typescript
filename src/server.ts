@@ -22,3 +22,21 @@ function kgToLbs(weight: number | string) {
 }
 
 kgToLbs('10')
+
+// type intersection for variable to have two types
+type Draggable={
+    drag: ()=> void,
+}
+type Resizable={
+    resize: ()=> void,
+}
+type UIwidgets = Draggable & Resizable;
+
+let person: UIwidgets ={
+    drag: ()=> console.log('dragging'),
+    resize: ()=> console.log('resizing'),
+}
+
+/// Moving to literal types
+type quantity = 50 | 100
+let measurement: quantity = 100
