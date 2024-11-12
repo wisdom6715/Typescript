@@ -37,4 +37,6 @@ const employees: {
     id : number
     name: string
 } = {id : 1, name : "wisdom"}
-console.log(employees.name);
+console.log(employees.name, employees.id);
+const enum Size{ Sm = 1, Me, La}
+const yourSize: Size = Size.Sm

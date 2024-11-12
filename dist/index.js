@@ -20,5 +20,5 @@ function calculateIncome(income, taxYear) {
 }
 calculateIncome(57, 100);
 const employees = { id: 1, name: "wisdom" };
-console.log(employees.name);
+console.log(employees.name, employees.id);
 //# sourceMappingURL=index.js.map
